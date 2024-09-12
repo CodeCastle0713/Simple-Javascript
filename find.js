@@ -11,6 +11,6 @@ const y = [
     {id : 9 , name : "Sedlak"}
 ];
 
-const result = x.map(index =>y.find(e => e.id == index)).filter(item=>item !== undefined)
+const result = x.map(index =>y.find(e => e.id == index)).filter(e => e != undefined)
 
 console.log("Result : ", result);
