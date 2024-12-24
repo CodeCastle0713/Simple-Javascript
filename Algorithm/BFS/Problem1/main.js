@@ -1,6 +1,6 @@
 /**
- * Problem: Count the number of connected components in a graph.
- * Expected Output: 7
+ * Problem: Total count the number of pairs of connected nodes each other in a graph.
+ * Used BFS Algorithm. Coded by True Dragon - 12/25/2024
  */
 
 const visited = new Set();
@@ -14,7 +14,7 @@ const graph = {
     5: [3,4,2]
 };
 
-// Used BFS Algorithm. Coded by True Dragon - 12/25/2024
+// Expected Output : 7
 function countConnectedComponents(start) {
     queue.add(start);
     while (queue.size > 0) {
